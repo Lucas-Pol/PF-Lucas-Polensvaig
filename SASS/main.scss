@@ -13,19 +13,20 @@
 body {
     background-color: rgb(43, 40, 40);
 }
+
 footer {
 color: rgb(214, 202, 202);
-
 }
 
 .foot {
-text-decoration: none;
-color: rgb(214, 202, 202);
+    text-decoration: none;
+    color: rgb(214, 202, 202);
+    &:hover {
+        color: #FFB84C;
+    }
 }
 
-.foot:hover {
-color: #FFB84C;
-}
+
 
 .contenedor-css {
 display: flex;
