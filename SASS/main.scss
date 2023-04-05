@@ -1,43 +1,8 @@
 @import "vars";
 @import "footer";
-
-
-#titulo {
-    background-color: $bgColor;
-}
-
-#textos {
-    background-color:$bgColor;
-}
-
-#nav-button {
-    background-color:$bgColor;
-}
-
-body {
-    background-color: $bgBody;
-}
-
-/* footer {
-color: $colFoot;
-}
-
-.foot {
-    text-decoration: none;
-    color:$colFoot;
-    &:hover {
-        color: #FFB84C;
-    }
-} */
+@import "bgs";
+@import "container";
 
 
 
-.contenedor-css {
-display: flex;
-width: 100%;
-}
-
-.textos2 {
-background-color:$bgColor;
-}
 

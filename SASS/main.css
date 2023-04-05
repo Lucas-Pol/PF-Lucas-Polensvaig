@@ -26,22 +26,11 @@ body {
   background-color: rgb(43, 40, 40);
 }
 
-/* footer {
-color: $colFoot;
+.textos2 {
+  background-color: #9E2F2F;
 }
 
-.foot {
-    text-decoration: none;
-    color:$colFoot;
-    &:hover {
-        color: #FFB84C;
-    }
-} */
 .contenedor-css {
   display: flex;
   width: 100%;
-}
-
-.textos2 {
-  background-color: #9E2F2F;
 }/*# sourceMappingURL=main.css.map */
