@@ -1,3 +1,15 @@
+footer {
+  color: rgb(214, 202, 202);
+}
+
+.foot {
+  text-decoration: none;
+  color: rgb(214, 202, 202);
+}
+.foot:hover {
+  color: #FFB84C;
+}
+
 #titulo {
   background-color: #9E2F2F;
 }
@@ -14,18 +26,17 @@ body {
   background-color: rgb(43, 40, 40);
 }
 
-footer {
-  color: rgb(214, 202, 202);
+/* footer {
+color: $colFoot;
 }
 
 .foot {
-  text-decoration: none;
-  color: rgb(214, 202, 202);
-}
-.foot:hover {
-  color: #FFB84C;
-}
-
+    text-decoration: none;
+    color:$colFoot;
+    &:hover {
+        color: #FFB84C;
+    }
+} */
 .contenedor-css {
   display: flex;
   width: 100%;

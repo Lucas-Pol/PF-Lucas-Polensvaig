@@ -1,30 +1,34 @@
+@import "vars";
+@import "footer";
+
+
 #titulo {
-    background-color: #9E2F2F;
+    background-color: $bgColor;
 }
 
 #textos {
-    background-color: #9E2F2F;
+    background-color:$bgColor;
 }
 
 #nav-button {
-    background-color: #9E2F2F;
+    background-color:$bgColor;
 }
 
 body {
-    background-color: rgb(43, 40, 40);
+    background-color: $bgBody;
 }
 
-footer {
-color: rgb(214, 202, 202);
+/* footer {
+color: $colFoot;
 }
 
 .foot {
     text-decoration: none;
-    color: rgb(214, 202, 202);
+    color:$colFoot;
     &:hover {
         color: #FFB84C;
     }
-}
+} */
 
 
 
@@ -34,5 +38,6 @@ width: 100%;
 }
 
 .textos2 {
-background-color: #9E2F2F;
+background-color:$bgColor;
 }
+
