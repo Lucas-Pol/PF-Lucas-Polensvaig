@@ -37,8 +37,10 @@ body {
 
 .scaled:hover {
   transform: scale(1.1, 1.1);
+  transition: all 1s;
 }
 
 .hov:hover {
   border: 1px solid white;
+  transition: all 1s;
 }/*# sourceMappingURL=main.css.map */
